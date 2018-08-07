@@ -7,13 +7,82 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D517B39C5F3BE8F8BAC2714 /* libPods-YXAudioRecorderKitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D3C16F317F9473E57C021F /* libPods-YXAudioRecorderKitTests.a */; };
 		59E9D73420E4BCA70081D5D6 /* YXAudioRecorderKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 59E9D73220E4BCA70081D5D6 /* YXAudioRecorderKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59F1008B211832BA00C89D7C /* YXAudioRecorderKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F1008A211832BA00C89D7C /* YXAudioRecorderKitTests.m */; };
+		59F1008D211832BA00C89D7C /* YXAudioRecorderKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59E9D72F20E4BCA70081D5D6 /* YXAudioRecorderKit.framework */; };
+		59F10096211846DD00C89D7C /* YXAudioRecordController.h in Headers */ = {isa = PBXBuildFile; fileRef = 59F10094211846DD00C89D7C /* YXAudioRecordController.h */; };
+		59F10097211846DD00C89D7C /* YXAudioRecordController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F10095211846DD00C89D7C /* YXAudioRecordController.m */; };
+		59F100B621184AEC00C89D7C /* MUIAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F1009B21184AEC00C89D7C /* MUIAudio.m */; };
+		59F100B721184AEC00C89D7C /* MUIAudio.h in Headers */ = {isa = PBXBuildFile; fileRef = 59F1009C21184AEC00C89D7C /* MUIAudio.h */; };
+		59F100B821184AEC00C89D7C /* MUIAudioDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 59F1009D21184AEC00C89D7C /* MUIAudioDefine.h */; };
+		59F100B921184AEC00C89D7C /* MUIAudioPlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F1009F21184AEC00C89D7C /* MUIAudioPlayView.m */; };
+		59F100BA21184AEC00C89D7C /* MUIEditAudioRecordView.h in Headers */ = {isa = PBXBuildFile; fileRef = 59F100A021184AEC00C89D7C /* MUIEditAudioRecordView.h */; };
+		59F100BB21184AEC00C89D7C /* MUIEditAudioNewRecordView.h in Headers */ = {isa = PBXBuildFile; fileRef = 59F100A121184AEC00C89D7C /* MUIEditAudioNewRecordView.h */; };
+		59F100BC21184AEC00C89D7C /* MUIAudioWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F100A221184AEC00C89D7C /* MUIAudioWaveView.m */; };
+		59F100BD21184AEC00C89D7C /* MUIAudioNewPlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 59F100A321184AEC00C89D7C /* MUIAudioNewPlayView.h */; };
+		59F100BE21184AEC00C89D7C /* MUIAudioPlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 59F100A421184AEC00C89D7C /* MUIAudioPlayView.h */; };
+		59F100BF21184AEC00C89D7C /* MUIEditAudioRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F100A521184AEC00C89D7C /* MUIEditAudioRecordView.m */; };
+		59F100C021184AEC00C89D7C /* MUIEditAudioNewRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F100A621184AEC00C89D7C /* MUIEditAudioNewRecordView.m */; };
+		59F100C121184AEC00C89D7C /* MUIAudioNewPlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F100A721184AEC00C89D7C /* MUIAudioNewPlayView.m */; };
+		59F100C221184AEC00C89D7C /* MUIAudioWaveView.h in Headers */ = {isa = PBXBuildFile; fileRef = 59F100A821184AEC00C89D7C /* MUIAudioWaveView.h */; };
+		59F100C321184AEC00C89D7C /* MUIAudioPlayManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 59F100AB21184AEC00C89D7C /* MUIAudioPlayManager.h */; };
+		59F100C421184AEC00C89D7C /* MUIAudioViewHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 59F100AC21184AEC00C89D7C /* MUIAudioViewHelper.h */; };
+		59F100C521184AEC00C89D7C /* MUIAudioPlayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F100AD21184AEC00C89D7C /* MUIAudioPlayManager.m */; };
+		59F100C621184AEC00C89D7C /* MUIAudioViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F100AE21184AEC00C89D7C /* MUIAudioViewHelper.m */; };
+		59F100C721184AEC00C89D7C /* MUIEditAudioPlayProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F100B021184AEC00C89D7C /* MUIEditAudioPlayProgressView.m */; };
+		59F100C821184AEC00C89D7C /* MUIAudioLoadWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F100B121184AEC00C89D7C /* MUIAudioLoadWaveView.m */; };
+		59F100C921184AEC00C89D7C /* MUIAudioLoadProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 59F100B221184AEC00C89D7C /* MUIAudioLoadProgressView.h */; };
+		59F100CA21184AEC00C89D7C /* MUIAudioLoadWaveView.h in Headers */ = {isa = PBXBuildFile; fileRef = 59F100B321184AEC00C89D7C /* MUIAudioLoadWaveView.h */; };
+		59F100CB21184AEC00C89D7C /* MUIEditAudioPlayProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 59F100B421184AEC00C89D7C /* MUIEditAudioPlayProgressView.h */; };
+		59F100CC21184AEC00C89D7C /* MUIAudioLoadProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F100B521184AEC00C89D7C /* MUIAudioLoadProgressView.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59F1008E211832BA00C89D7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59E9D72620E4BCA70081D5D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59E9D72E20E4BCA70081D5D6;
+			remoteInfo = YXAudioRecorderKit;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		59E9D72F20E4BCA70081D5D6 /* YXAudioRecorderKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YXAudioRecorderKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59E9D73220E4BCA70081D5D6 /* YXAudioRecorderKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXAudioRecorderKit.h; sourceTree = "<group>"; };
 		59E9D73320E4BCA70081D5D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59F10088211832BA00C89D7C /* YXAudioRecorderKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YXAudioRecorderKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59F1008A211832BA00C89D7C /* YXAudioRecorderKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXAudioRecorderKitTests.m; sourceTree = "<group>"; };
+		59F1008C211832BA00C89D7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59F10094211846DD00C89D7C /* YXAudioRecordController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXAudioRecordController.h; sourceTree = "<group>"; };
+		59F10095211846DD00C89D7C /* YXAudioRecordController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXAudioRecordController.m; sourceTree = "<group>"; };
+		59F1009B21184AEC00C89D7C /* MUIAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUIAudio.m; sourceTree = "<group>"; };
+		59F1009C21184AEC00C89D7C /* MUIAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUIAudio.h; sourceTree = "<group>"; };
+		59F1009D21184AEC00C89D7C /* MUIAudioDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUIAudioDefine.h; sourceTree = "<group>"; };
+		59F1009F21184AEC00C89D7C /* MUIAudioPlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUIAudioPlayView.m; sourceTree = "<group>"; };
+		59F100A021184AEC00C89D7C /* MUIEditAudioRecordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUIEditAudioRecordView.h; sourceTree = "<group>"; };
+		59F100A121184AEC00C89D7C /* MUIEditAudioNewRecordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUIEditAudioNewRecordView.h; sourceTree = "<group>"; };
+		59F100A221184AEC00C89D7C /* MUIAudioWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUIAudioWaveView.m; sourceTree = "<group>"; };
+		59F100A321184AEC00C89D7C /* MUIAudioNewPlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUIAudioNewPlayView.h; sourceTree = "<group>"; };
+		59F100A421184AEC00C89D7C /* MUIAudioPlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUIAudioPlayView.h; sourceTree = "<group>"; };
+		59F100A521184AEC00C89D7C /* MUIEditAudioRecordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUIEditAudioRecordView.m; sourceTree = "<group>"; };
+		59F100A621184AEC00C89D7C /* MUIEditAudioNewRecordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUIEditAudioNewRecordView.m; sourceTree = "<group>"; };
+		59F100A721184AEC00C89D7C /* MUIAudioNewPlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUIAudioNewPlayView.m; sourceTree = "<group>"; };
+		59F100A821184AEC00C89D7C /* MUIAudioWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUIAudioWaveView.h; sourceTree = "<group>"; };
+		59F100AB21184AEC00C89D7C /* MUIAudioPlayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUIAudioPlayManager.h; sourceTree = "<group>"; };
+		59F100AC21184AEC00C89D7C /* MUIAudioViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUIAudioViewHelper.h; sourceTree = "<group>"; };
+		59F100AD21184AEC00C89D7C /* MUIAudioPlayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUIAudioPlayManager.m; sourceTree = "<group>"; };
+		59F100AE21184AEC00C89D7C /* MUIAudioViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUIAudioViewHelper.m; sourceTree = "<group>"; };
+		59F100B021184AEC00C89D7C /* MUIEditAudioPlayProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUIEditAudioPlayProgressView.m; sourceTree = "<group>"; };
+		59F100B121184AEC00C89D7C /* MUIAudioLoadWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUIAudioLoadWaveView.m; sourceTree = "<group>"; };
+		59F100B221184AEC00C89D7C /* MUIAudioLoadProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUIAudioLoadProgressView.h; sourceTree = "<group>"; };
+		59F100B321184AEC00C89D7C /* MUIAudioLoadWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUIAudioLoadWaveView.h; sourceTree = "<group>"; };
+		59F100B421184AEC00C89D7C /* MUIEditAudioPlayProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUIEditAudioPlayProgressView.h; sourceTree = "<group>"; };
+		59F100B521184AEC00C89D7C /* MUIAudioLoadProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUIAudioLoadProgressView.m; sourceTree = "<group>"; };
+		94D3C16F317F9473E57C021F /* libPods-YXAudioRecorderKitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YXAudioRecorderKitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C19972852A0181251F2D898 /* Pods-YXAudioRecorderKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXAudioRecorderKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YXAudioRecorderKitTests/Pods-YXAudioRecorderKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9E08AD3018110CC34E73B1F5 /* Pods-YXAudioRecorderKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXAudioRecorderKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YXAudioRecorderKitTests/Pods-YXAudioRecorderKitTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +93,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		59F10085211832BA00C89D7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59F1008D211832BA00C89D7C /* YXAudioRecorderKit.framework in Frameworks */,
+				0D517B39C5F3BE8F8BAC2714 /* libPods-YXAudioRecorderKitTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -31,7 +109,10 @@
 			isa = PBXGroup;
 			children = (
 				59E9D73120E4BCA70081D5D6 /* YXAudioRecorderKit */,
+				59F10089211832BA00C89D7C /* YXAudioRecorderKitTests */,
 				59E9D73020E4BCA70081D5D6 /* Products */,
+				80A40A3F93CEC9FEB3F09886 /* Pods */,
+				5B69070914E45BDB52F932AA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -39,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				59E9D72F20E4BCA70081D5D6 /* YXAudioRecorderKit.framework */,
+				59F10088211832BA00C89D7C /* YXAudioRecorderKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,8 +146,123 @@
 		59E9D73B20E4C01E0081D5D6 /* include */ = {
 			isa = PBXGroup;
 			children = (
+				59F1009821184AEC00C89D7C /* MUIAudioView */,
+				59F100932118458000C89D7C /* controller */,
 			);
 			path = include;
+			sourceTree = "<group>";
+		};
+		59F10089211832BA00C89D7C /* YXAudioRecorderKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				59F1008A211832BA00C89D7C /* YXAudioRecorderKitTests.m */,
+				59F1008C211832BA00C89D7C /* Info.plist */,
+			);
+			path = YXAudioRecorderKitTests;
+			sourceTree = "<group>";
+		};
+		59F100932118458000C89D7C /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				59F10094211846DD00C89D7C /* YXAudioRecordController.h */,
+				59F10095211846DD00C89D7C /* YXAudioRecordController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		59F1009821184AEC00C89D7C /* MUIAudioView */ = {
+			isa = PBXGroup;
+			children = (
+				59F1009921184AEC00C89D7C /* include */,
+				59F100A921184AEC00C89D7C /* src */,
+			);
+			path = MUIAudioView;
+			sourceTree = "<group>";
+		};
+		59F1009921184AEC00C89D7C /* include */ = {
+			isa = PBXGroup;
+			children = (
+				59F1009A21184AEC00C89D7C /* Model */,
+				59F1009E21184AEC00C89D7C /* View */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		59F1009A21184AEC00C89D7C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				59F1009B21184AEC00C89D7C /* MUIAudio.m */,
+				59F1009C21184AEC00C89D7C /* MUIAudio.h */,
+				59F1009D21184AEC00C89D7C /* MUIAudioDefine.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		59F1009E21184AEC00C89D7C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				59F100A321184AEC00C89D7C /* MUIAudioNewPlayView.h */,
+				59F100A721184AEC00C89D7C /* MUIAudioNewPlayView.m */,
+				59F100A421184AEC00C89D7C /* MUIAudioPlayView.h */,
+				59F1009F21184AEC00C89D7C /* MUIAudioPlayView.m */,
+				59F100A021184AEC00C89D7C /* MUIEditAudioRecordView.h */,
+				59F100A521184AEC00C89D7C /* MUIEditAudioRecordView.m */,
+				59F100A121184AEC00C89D7C /* MUIEditAudioNewRecordView.h */,
+				59F100A621184AEC00C89D7C /* MUIEditAudioNewRecordView.m */,
+				59F100A821184AEC00C89D7C /* MUIAudioWaveView.h */,
+				59F100A221184AEC00C89D7C /* MUIAudioWaveView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		59F100A921184AEC00C89D7C /* src */ = {
+			isa = PBXGroup;
+			children = (
+				59F100AA21184AEC00C89D7C /* Util */,
+				59F100AF21184AEC00C89D7C /* view */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		59F100AA21184AEC00C89D7C /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				59F100AC21184AEC00C89D7C /* MUIAudioViewHelper.h */,
+				59F100AE21184AEC00C89D7C /* MUIAudioViewHelper.m */,
+				59F100AB21184AEC00C89D7C /* MUIAudioPlayManager.h */,
+				59F100AD21184AEC00C89D7C /* MUIAudioPlayManager.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		59F100AF21184AEC00C89D7C /* view */ = {
+			isa = PBXGroup;
+			children = (
+				59F100B221184AEC00C89D7C /* MUIAudioLoadProgressView.h */,
+				59F100B521184AEC00C89D7C /* MUIAudioLoadProgressView.m */,
+				59F100B321184AEC00C89D7C /* MUIAudioLoadWaveView.h */,
+				59F100B121184AEC00C89D7C /* MUIAudioLoadWaveView.m */,
+				59F100B421184AEC00C89D7C /* MUIEditAudioPlayProgressView.h */,
+				59F100B021184AEC00C89D7C /* MUIEditAudioPlayProgressView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		5B69070914E45BDB52F932AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94D3C16F317F9473E57C021F /* libPods-YXAudioRecorderKitTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80A40A3F93CEC9FEB3F09886 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C19972852A0181251F2D898 /* Pods-YXAudioRecorderKitTests.debug.xcconfig */,
+				9E08AD3018110CC34E73B1F5 /* Pods-YXAudioRecorderKitTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -76,6 +273,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				59E9D73420E4BCA70081D5D6 /* YXAudioRecorderKit.h in Headers */,
+				59F100C321184AEC00C89D7C /* MUIAudioPlayManager.h in Headers */,
+				59F100C421184AEC00C89D7C /* MUIAudioViewHelper.h in Headers */,
+				59F100CB21184AEC00C89D7C /* MUIEditAudioPlayProgressView.h in Headers */,
+				59F100BD21184AEC00C89D7C /* MUIAudioNewPlayView.h in Headers */,
+				59F100B721184AEC00C89D7C /* MUIAudio.h in Headers */,
+				59F100C921184AEC00C89D7C /* MUIAudioLoadProgressView.h in Headers */,
+				59F100BB21184AEC00C89D7C /* MUIEditAudioNewRecordView.h in Headers */,
+				59F100B821184AEC00C89D7C /* MUIAudioDefine.h in Headers */,
+				59F10096211846DD00C89D7C /* YXAudioRecordController.h in Headers */,
+				59F100BE21184AEC00C89D7C /* MUIAudioPlayView.h in Headers */,
+				59F100CA21184AEC00C89D7C /* MUIAudioLoadWaveView.h in Headers */,
+				59F100BA21184AEC00C89D7C /* MUIEditAudioRecordView.h in Headers */,
+				59F100C221184AEC00C89D7C /* MUIAudioWaveView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +310,25 @@
 			productReference = 59E9D72F20E4BCA70081D5D6 /* YXAudioRecorderKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		59F10087211832BA00C89D7C /* YXAudioRecorderKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59F10092211832BA00C89D7C /* Build configuration list for PBXNativeTarget "YXAudioRecorderKitTests" */;
+			buildPhases = (
+				B3046A7CA60F99B130A5AAD5 /* [CP] Check Pods Manifest.lock */,
+				59F10084211832BA00C89D7C /* Sources */,
+				59F10085211832BA00C89D7C /* Frameworks */,
+				59F10086211832BA00C89D7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59F1008F211832BA00C89D7C /* PBXTargetDependency */,
+			);
+			name = YXAudioRecorderKitTests;
+			productName = YXAudioRecorderKitTests;
+			productReference = 59F10088211832BA00C89D7C /* YXAudioRecorderKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -110,6 +339,9 @@
 				ORGANIZATIONNAME = yuxiang;
 				TargetAttributes = {
 					59E9D72E20E4BCA70081D5D6 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					59F10087211832BA00C89D7C = {
 						CreatedOnToolsVersion = 9.4;
 					};
 				};
@@ -127,6 +359,7 @@
 			projectRoot = "";
 			targets = (
 				59E9D72E20E4BCA70081D5D6 /* YXAudioRecorderKit */,
+				59F10087211832BA00C89D7C /* YXAudioRecorderKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -139,17 +372,73 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		59F10086211832BA00C89D7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B3046A7CA60F99B130A5AAD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YXAudioRecorderKitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		59E9D72A20E4BCA70081D5D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59F100BC21184AEC00C89D7C /* MUIAudioWaveView.m in Sources */,
+				59F100B621184AEC00C89D7C /* MUIAudio.m in Sources */,
+				59F10097211846DD00C89D7C /* YXAudioRecordController.m in Sources */,
+				59F100B921184AEC00C89D7C /* MUIAudioPlayView.m in Sources */,
+				59F100C721184AEC00C89D7C /* MUIEditAudioPlayProgressView.m in Sources */,
+				59F100C821184AEC00C89D7C /* MUIAudioLoadWaveView.m in Sources */,
+				59F100CC21184AEC00C89D7C /* MUIAudioLoadProgressView.m in Sources */,
+				59F100C121184AEC00C89D7C /* MUIAudioNewPlayView.m in Sources */,
+				59F100BF21184AEC00C89D7C /* MUIEditAudioRecordView.m in Sources */,
+				59F100C621184AEC00C89D7C /* MUIAudioViewHelper.m in Sources */,
+				59F100C521184AEC00C89D7C /* MUIAudioPlayManager.m in Sources */,
+				59F100C021184AEC00C89D7C /* MUIEditAudioNewRecordView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59F10084211832BA00C89D7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59F1008B211832BA00C89D7C /* YXAudioRecorderKitTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59F1008F211832BA00C89D7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59E9D72E20E4BCA70081D5D6 /* YXAudioRecorderKit */;
+			targetProxy = 59F1008E211832BA00C89D7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		59E9D73520E4BCA70081D5D6 /* Debug */ = {
@@ -319,6 +608,47 @@
 			};
 			name = Release;
 		};
+		59F10090211832BA00C89D7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C19972852A0181251F2D898 /* Pods-YXAudioRecorderKitTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46XURP4K9R;
+				INFOPLIST_FILE = YXAudioRecorderKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yx.YXAudioRecorderKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59F10091211832BA00C89D7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E08AD3018110CC34E73B1F5 /* Pods-YXAudioRecorderKitTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46XURP4K9R;
+				INFOPLIST_FILE = YXAudioRecorderKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yx.YXAudioRecorderKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -336,6 +666,15 @@
 			buildConfigurations = (
 				59E9D73820E4BCA70081D5D6 /* Debug */,
 				59E9D73920E4BCA70081D5D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59F10092211832BA00C89D7C /* Build configuration list for PBXNativeTarget "YXAudioRecorderKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F10090211832BA00C89D7C /* Debug */,
+				59F10091211832BA00C89D7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
