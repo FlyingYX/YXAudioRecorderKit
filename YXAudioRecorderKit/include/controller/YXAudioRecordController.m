@@ -7,8 +7,8 @@
 //
 
 #import "YXAudioRecordController.h"
-#import <MUIAudioView/MUIEditAudioRecordView.h>
-#import <MUIAudioView/MUIEditAudioNewRecordView.h>
+#import "MUIEditAudioRecordView.h"
+#import "MUIEditAudioNewRecordView.h"
 #import <Masonry/Masonry.h>
 #import <APFUIKit/MUPAudioUtility.h>
 
